@@ -1,0 +1,24 @@
+{
+	"name": "adonis-nunjucks",
+	"version": "0.0.1",
+	"description": "Nunjucks templating ViewProvider provider for AdonisJs",
+	"keywords": [ "adonisjs" , "nunjucks", "template", "provider", "ViewProvider", "view-engine", "adonis-nunjucks"],
+	"author": "devananb",
+	"license": "MIT",
+	"scripts": {
+	},
+	"dependencies": {
+	},
+	"peerDependencies": {
+	},
+	"devDependencies": {
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/devanandb/adonis-nunjucks.git"
+	},
+	"bugs": {
+	  	"url": "https://github.com/devanandb/adonis-nunjucks/issues"
+	},
+	"homepage": "https://github.com/devanandb/adonis-nunjucks#readme"
+}
