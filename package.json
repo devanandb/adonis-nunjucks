@@ -1,6 +1,6 @@
 {
 	"name": "adonis-nunjucks",
-	"version": "0.0.1",
+	"version": "0.1.0-beta.0",
 	"description": "Nunjucks templating ViewProvider provider for AdonisJs",
 	"keywords": [
 		"adonisjs",
