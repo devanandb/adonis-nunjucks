@@ -59,7 +59,7 @@ class Template {
 
 		template = template.replace('.', path.sep)
 
-		return this.engine.renderFile(path.join(this.viewsPath, `${template}.html`), this._getOptions())
+		return this.engine.render(path.join(this.viewsPath, `${template}.html`), this._getOptions())
 	}
 
 	/**
@@ -73,7 +73,7 @@ class Template {
 			this.share(locals)
 		}
 
-		return this.engine.render(string, this._getOptions())
+		return this.engine.renderString(string, this._getOptions())
 	}
 
 	/**
