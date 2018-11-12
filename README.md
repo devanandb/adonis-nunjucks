@@ -1,4 +1,11 @@
-[![NPM Package][npm-badge]][npm-link]
+<!-- [![NPM Package][npm-badge]][npm-link] -->
+<p align="left">
+	<a href="https://www.npmjs.com/package/adonis-nunjucks"><img src="https://img.shields.io/npm/v/adonis-nunjucks.svg" alt="NPM"></a>
+	<a href="https://npmcharts.com/compare/adonis-nunjucks?minimal=true"><img src="https://img.shields.io/npm/dt/adonis-nunjucks.svg" alt="NPM"></a>
+	<a href="https://www.npmjs.com/package/adonis-nunjucks"><img src="https://img.shields.io/npm/l/adonis-nunjucks.svg" alt="NPM"></a>
+	<a href="https://www.npmjs.com/package/adonis-nunjucks"><img src="http://inch-ci.org/github/devanandb/adonis-nunjucks.svg?branch=master"></a>
+	<a href="http://hits.dwyl.io/devanandb/adonis-nunjucks"><img src="http://hits.dwyl.io/devanandb/adonis-nunjucks.svg" alt="HitCount"></a>
+</p>
 
 
 # Adonis Nunjucks
@@ -102,7 +109,7 @@ class SomeMiddleware {
 Inside your views, you can access it like any other variable
 
 ```nunjucks
-	{{apiVersion}}
+{{apiVersion}}
 ```
 
 #### view.render(template, locals) ⇒ <code>String</code>
@@ -135,7 +142,7 @@ A number of global methods and contextual helpers are injected into all views.
 All views have access to the current request object, and you can call request methods inside your templates as well.
 
 ```nunjucks
-	The request URL is {% request.url() %}
+The request URL is {% request.url() %}
 ```
 
 Also, there is a direct helper to get the URL.
@@ -144,14 +151,13 @@ Also, there is a direct helper to get the URL.
 The request URL is {% url %}
 ```
 
-### style - *formerly css (deprecated)*
+<!-- ### style - *formerly css (deprecated)*
 
 Add link tag to a CSS file. The file name should be relative from the public directory. Absolute links are left alone (for external CDNs etc)
 
 ``` nunjucks
-<!-- != style('style') -->
 // Renders <link rel='stylesheet' href="{{ style }}">
-```
+``` -->
 
 <!-- ### script
 
