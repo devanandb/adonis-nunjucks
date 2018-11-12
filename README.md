@@ -32,7 +32,7 @@ For Adonis v3 install the previous version (3.01) with :*
 npm install adonis-nunjucks --save
 ```
 
-## Config
+<!-- ## Config
 
 Nunjucks options can be added to `config/nunjucks.js`, these will be passed to the nunjucks engine:
 
@@ -45,7 +45,7 @@ Nunjucks options can be added to `config/nunjucks.js`, these will be passed to t
     self: false,
     debug: false
   }
-```
+``` -->
 
 
 ## Basic Usage
@@ -102,7 +102,7 @@ class SomeMiddleware {
 Inside your views, you can access it like any other variable
 
 ```nunjucks
-p= {{apiVersion}}
+	{{apiVersion}}
 ```
 
 #### view.render(template, locals) ⇒ <code>String</code>
@@ -135,13 +135,13 @@ A number of global methods and contextual helpers are injected into all views.
 All views have access to the current request object, and you can call request methods inside your templates as well.
 
 ```nunjucks
-p The request URL is #{request.url()}
+	The request URL is {% request.url() %}
 ```
 
 Also, there is a direct helper to get the URL.
 
 ```nunjucks
-p The request URL is #{url}
+The request URL is {% url %}
 ```
 
 ### style - *formerly css (deprecated)*
@@ -149,11 +149,11 @@ p The request URL is #{url}
 Add link tag to a CSS file. The file name should be relative from the public directory. Absolute links are left alone (for external CDNs etc)
 
 ``` nunjucks
-!= style('style')
-// Renders <link rel='stylesheet' href="/style.css">
+<!-- != style('style') -->
+// Renders <link rel='stylesheet' href="{{ style }}">
 ```
 
-### script
+<!-- ### script
 
 Similar to css, adds a script tag to the document
 
@@ -168,9 +168,9 @@ Returns path of a file relative from the public directory.
 ```nunjucks
 img(src=assetsUrl('logo.png'))
 // Renders <img src='/logo.png' />
-```
+``` -->
 
-### route
+<!-- ### route
 Get actual URL for a route
 
 Expecting the route to be registered as following
@@ -256,6 +256,10 @@ View.global('getMessage', function (type) {
 ```nunjucks
 p= getMessage('success')
 // Renders <p>This is a success message</p>
-```
+``` -->
+
+### More documentation coming soon.
+
+
 [npm-badge]: https://img.shields.io/npm/v/adonis-nunjucks.svg?maxAge=30
 [npm-link]:https://npmjs.com/package/adonis-nunjucks
