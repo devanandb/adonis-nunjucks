@@ -267,5 +267,9 @@ p= getMessage('success')
 ### More documentation coming soon.
 
 
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdevanandb%2Fadonis-nunjucks.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdevanandb%2Fadonis-nunjucks?ref=badge_large)
+
+
 [npm-badge]: https://img.shields.io/npm/v/adonis-nunjucks.svg?maxAge=30
 [npm-link]:https://npmjs.com/package/adonis-nunjucks
