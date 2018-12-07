@@ -2,6 +2,7 @@
 <p align="left">
 	<a href="https://www.npmjs.com/package/adonis-nunjucks"><img src="https://img.shields.io/npm/v/adonis-nunjucks.svg" alt="NPM"></a>
 	<a href="https://npmcharts.com/compare/adonis-nunjucks?minimal=true"><img src="https://img.shields.io/npm/dt/adonis-nunjucks.svg" alt="NPM"></a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fdevanandb%2Fadonis-nunjucks?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdevanandb%2Fadonis-nunjucks.svg?type=shield"/></a>
 	<a href="https://www.npmjs.com/package/adonis-nunjucks"><img src="https://img.shields.io/npm/l/adonis-nunjucks.svg" alt="NPM"></a>
 	<a href="https://www.npmjs.com/package/adonis-nunjucks"><img src="http://inch-ci.org/github/devanandb/adonis-nunjucks.svg?branch=master"></a>
 	<a href="http://hits.dwyl.io/devanandb/adonis-nunjucks"><img src="http://hits.dwyl.io/devanandb/adonis-nunjucks.svg" alt="HitCount"></a>
@@ -273,3 +274,7 @@ p= getMessage('success')
 
 [npm-badge]: https://img.shields.io/npm/v/adonis-nunjucks.svg?maxAge=30
 [npm-link]:https://npmjs.com/package/adonis-nunjucks
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdevanandb%2Fadonis-nunjucks.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdevanandb%2Fadonis-nunjucks?ref=badge_large)
